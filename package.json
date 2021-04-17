@@ -1,0 +1,33 @@
+{
+  "name": "taller-react-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Diogo 'Mozão' Fonseca <devmozao@outlook.com> (https://github.com/devMozao)",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.dev.js"
+  },
+  "engines": {
+    "node": "^15.x.x",
+    "npm": "You must run Yarn in this project.",
+    "yarn": "^1.22.x"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.24.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
