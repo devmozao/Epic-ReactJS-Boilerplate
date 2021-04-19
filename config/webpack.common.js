@@ -5,18 +5,16 @@ const babelConfig = {
     loader: 'babel-loader',
     options: {
       presets: [
-        ['@babel/preset-react', { 'runtime': 'automatic' }],
-        '@babel/preset-env'
+        ['@babel/preset-react', { runtime: 'automatic' }],
+        '@babel/preset-env',
       ],
-      plugins: ['@babel/plugin-transform-runtime']
-    }
-  }
+      plugins: ['@babel/plugin-transform-runtime'],
+    },
+  },
 };
-  
+
 module.exports = {
   module: {
-    rules: [
-      babelConfig,
-    ]
-  }
+    rules: [babelConfig],
+  },
 };
