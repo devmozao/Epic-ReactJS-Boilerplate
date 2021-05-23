@@ -8,7 +8,7 @@
     "start": "webpack serve --config config/webpack.dev.js"
   },
   "engines": {
-    "node": "^15.x.x",
+    "node": "^16.x.x",
     "npm": "You must run Yarn in this project.",
     "yarn": "^1.22.x"
   },

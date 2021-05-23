@@ -11,10 +11,10 @@ const babelConfig = {
       plugins: ['@babel/plugin-transform-runtime'],
     },
   },
-};
+}
 
 module.exports = {
   module: {
     rules: [babelConfig],
   },
-};
+}
