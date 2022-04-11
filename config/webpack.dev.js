@@ -13,6 +13,7 @@ const devConfig = {
   mode: 'development',
   devServer: {
     port: 8080,
+    open: true,
     historyApiFallback: {
       index: 'index.html',
     },
